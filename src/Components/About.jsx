@@ -68,7 +68,7 @@
 
 
 
-  import { ABOUT_TEXT } from "../constants";
+import { ABOUT_TEXT } from "../constants";
 import aboutpic from "../assets/about.jpg";
 import { FaFilePdf } from "react-icons/fa";
 import { motion } from "framer-motion";
