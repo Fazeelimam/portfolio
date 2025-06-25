@@ -107,7 +107,7 @@ const About = () => {
           </p>
 
           <a
-            href="Resume.pdf"
+            href="/resume.pdf"
             download
             className="mt-4 inline-flex items-center gap-2 px-6 py-2 bg-[#1c1b29] text-white border border-neutral-700 rounded-lg shadow hover:bg-[#2a2a40] transition duration-300"
           >
