@@ -1,4 +1,8 @@
 import pic1 from "../assets/1.png"
+import pic2 from "../assets/2.png"
+import pic3 from "../assets/3.png"
+import vid1 from "../assets/projects/php1.mp4"
+import vid2 from "../assets/projects/php 2.mp4"
 
 export const HERO_CONTENT = `Hi, I’m Hafiz Md. Fazeel — a passionate and motivated Software Engineering student and aspiring Full-Stack Developer. I'm currently pursuing my degree with a strong focus on building real-world web applications using modern technologies like React, Node.js, Express, MongoDB, and more Frontend and Backend Development.
 
@@ -33,34 +37,43 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+    {
+    title: "Crud with Images",
+    image: vid1,
+    description:
+      "CRUD with Images is a web application I built using PHP and MySQL that allows users to Create, Read, Update, and Delete records along with image uploads. The system is designed to demonstrate how to manage both text data and media files within a database-driven application",
+    technologies: ["HTML", "CSS", "javascipt", "PHP", "MySQL"],
+  },
+   {
+    title: "Crud with Images",
+    image: vid1,
+    description:
+      "CRUD with Images is a web application I built using PHP and MySQL that allows users to Create, Read, Update, and Delete records along with image uploads. The system is designed to demonstrate how to manage both text data and media files within a database-driven application",
+    technologies: ["HTML", "CSS", "javascipt", "PHP", "MySQL"],
+  },
   {
+    title: "E-Commerce Website",
+    image: pic3,
+    description:
+      "E-Commerce Website is a modern online shopping platform I developed to practice and demonstrate my web development skills. The project allows users to see products, view details, add items to the shopping cart to see and not proceed to checkout.",
+    technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
+    url:"https://super-fudge-143651.netlify.app/"
+  },
+  {
+    title: "Food Hut",
+    image: pic2,
+    description:
+      "Food Hut Website is a beginner-friendly project I created using HTML, CSS, and JavaScript. The website showcases a modern food-themed landing page with sections for featured dishes, menu highlights, and customer call-to-actions.",
+    technologies: ["HTML", "CSS", "Bootstrap","Javascript"],
+    url:"https://jade-monstera-e5c3e7.netlify.app/"
+  },
+    {
     title: "Astronomical Webiste",
     image: pic1,
     description:
       "Astronomy is my very first web development project, built using HTML, CSS, and JavaScript. It’s a simple yet creative astronomy-themed website designed to introduce visitors to the beauty of space.",
-    technologies: ["HTML", "CSS", "Javascript"],
+    technologies: ["HTML", "CSS", "Bootstrap","Javascript"],
     url:"https://tranquil-astronomy-b0ad2d.netlify.app/"
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
 
