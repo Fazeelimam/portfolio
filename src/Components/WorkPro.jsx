@@ -56,7 +56,7 @@ const WorkPro = () => {
                   href={projects.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mb-4 rounded bg-purple-900 px-4 py-2 text-white hover:bg-purple-700"
+                  className="inline-block mb-4 rounded bg-purple-900 px-3 py-2 text-white hover:bg-purple-700"
                 >
                   View Project
                 </a>
