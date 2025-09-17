@@ -21,13 +21,25 @@ const WorkPro = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                src={projects.image}
-                width={150}
-                height={150}
-                alt={projects.title}
-                className="mb-6 rounded"
-              />
+              {projects.video ? (
+                <video
+                  width={150}
+                  height={150}
+                  controls
+                  className="mb-6 rounded"
+                >
+                  <source src={projects.video} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              ) : (
+                <img
+                  src={projects.image}
+                  width={150}
+                  height={150}
+                  alt={projects.title}
+                  className="mb-6 rounded"
+                />
+              )}
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -37,11 +49,23 @@ const WorkPro = () => {
             >
               <h6 className="mb-2 font-semibold">{projects.title}</h6>
               <p className="mb-4 text-neutral-400">{projects.description}</p>
+
+              {/* Show project link if available */}
+              {projects.url && (
+                <a
+                  href={projects.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mb-4 rounded bg-purple-900 px-4 py-2 text-white hover:bg-purple-700"
+                >
+                  View Project
+                </a>
+              )}
+
               {projects.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm
-                        font-medium text-purple-900"
+                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
                 >
                   {tech}
                 </span>

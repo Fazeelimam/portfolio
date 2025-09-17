@@ -38,14 +38,14 @@ export const EXPERIENCES = [
 export const PROJECTS = [
     {
     title: "Crud with Images",
-    image: vid1,
+    video: vid1,
     description:
       "CRUD with Images is a web application I built using PHP and MySQL that allows users to Create, Read, Update, and Delete records along with image uploads. The system is designed to demonstrate how to manage both text data and media files within a database-driven application",
     technologies: ["HTML", "CSS", "javascipt", "PHP", "MySQL"],
   },
    {
     title: "Crud with Images",
-    image: vid1,
+    video: vid1,
     description:
       "CRUD with Images is a web application I built using PHP and MySQL that allows users to Create, Read, Update, and Delete records along with image uploads. The system is designed to demonstrate how to manage both text data and media files within a database-driven application",
     technologies: ["HTML", "CSS", "javascipt", "PHP", "MySQL"],
