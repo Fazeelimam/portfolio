@@ -2,7 +2,6 @@ import pic1 from "../assets/1.png"
 import pic2 from "../assets/2.png"
 import pic3 from "../assets/3.png"
 import vid1 from "../assets/projects/php1.mp4"
-import vid2 from "../assets/projects/php 2.mp4"
 
 export const HERO_CONTENT = `Hi, I’m Hafiz Md. Fazeel — a passionate and motivated Software Engineering student and aspiring Full-Stack Developer. I'm currently pursuing my degree with a strong focus on building real-world web applications using modern technologies like React, Node.js, Express, MongoDB, and more Frontend and Backend Development.
 
