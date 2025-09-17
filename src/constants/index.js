@@ -1,7 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import pic1 from "../assets/1.png"
 
 export const HERO_CONTENT = `Hi, I’m Hafiz Md. Fazeel — a passionate and motivated Software Engineering student and aspiring Full-Stack Developer. I'm currently pursuing my degree with a strong focus on building real-world web applications using modern technologies like React, Node.js, Express, MongoDB, and more Frontend and Backend Development.
 
@@ -37,11 +34,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Astronomical Webiste",
+    image: pic1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Astronomy is my very first web development project, built using HTML, CSS, and JavaScript. It’s a simple yet creative astronomy-themed website designed to introduce visitors to the beauty of space.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    url:"https://tranquil-astronomy-b0ad2d.netlify.app/"
   },
   {
     title: "Task Management App",

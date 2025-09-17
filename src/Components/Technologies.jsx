@@ -1,11 +1,26 @@
 import {
-  SiHtml5, SiCss3, SiJavascript, SiJquery, SiBootstrap,
-  SiTailwindcss, SiFigma, SiLaravel, SiDotnet, SiAngular,
-  SiReact, SiExpress, SiNodedotjs, SiFlutter, SiDart,
-  SiCplusplus, SiPython, SiPhp, SiMysql, SiMongodb, SiFirebase
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiJquery,
+  SiBootstrap,
+  SiLaravel,
+  SiDotnet,
+  SiAngular,
+  SiReact,
+  SiExpress,
+  SiNodedotjs,
+  SiFlutter,
+  SiDart,
+  SiCplusplus,
+  SiPython,
+  SiPhp,
+  SiMysql,
+  SiMongodb,
+  SiFirebase,
 } from "react-icons/si";
-import { DiVisualstudio, DiDatabase, DiWordpress } from "react-icons/di";
-import { FaMicrosoft, FaAndroid } from "react-icons/fa";
+import { DiVisualstudio, DiDatabase } from "react-icons/di";
+import { FaAndroid } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 // 🎯 Combined slide-in + bounce animation
@@ -38,8 +53,6 @@ const techSections = [
       { icon: SiJavascript, name: "JavaScript", color: "#F7DF1E" },
       { icon: SiJquery, name: "jQuery", color: "#0769AD" },
       { icon: SiBootstrap, name: "Bootstrap", color: "#7952B3" },
-      { icon: SiTailwindcss, name: "Tailwind CSS", color: "#38BDF8" },
-      { icon: SiFigma, name: "Figma", color: "#F24E1E" },
       { icon: SiAngular, name: "Angular", color: "#DD0031" },
       { icon: SiReact, name: "React JS", color: "#61DAFB" },
     ],
@@ -72,8 +85,6 @@ const techSections = [
       { icon: DiDatabase, name: "MS SQL (Generic)", color: "#CC2927" },
       { icon: SiMongodb, name: "MongoDB", color: "#47A248" },
       { icon: SiFirebase, name: "Firebase", color: "#FFCA28" },
-      { icon: DiWordpress, name: "MS Word", color: "#2B579A" },
-      { icon: FaMicrosoft, name: "MS Excel", color: "#217346" },
     ],
   },
 ];
@@ -82,10 +93,11 @@ const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
       <motion.h1
-      whileInView={{ opacity: 1 , y: 0}}
-      initial={{opacity:0, y:-100}}
-       transition={{duration: 1.5}}
-      className="my-20 text-center text-4xl font-bold text-white">
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1.5 }}
+        className="my-20 text-center text-4xl font-bold text-white"
+      >
         Technologies & Skills
       </motion.h1>
 
