@@ -15,6 +15,7 @@ import vid11 from "../assets/projects/perplexity.mp4"
 import vid12 from "../assets/projects/mern1.mp4"
 import vid13 from "../assets/projects/mern2.mp4"
 import vid14 from "../assets/projects/mern3.mp4"
+import vid15 from "../assets/projects/flutter3.mp4"
 
 export const HERO_CONTENT = `Hi, I’m Hafiz Md. Fazeel — a passionate and motivated Software Engineering student and aspiring Full-Stack Developer. I'm currently pursuing my degree with a strong focus on building real-world web applications using modern technologies like React, Node.js, Express, MongoDB, and more Frontend and Backend Development.
 
@@ -92,6 +93,14 @@ The app uses Google Fonts and custom styling for a polished look, while a respon
       `This is a fully functional real-time chat application built with Flutter and Firebase, designed to deliver smooth one-to-one messaging with a clean and responsive user interface. The app features light and dark theme support, custom chat components, and a scalable architecture that makes it practical for real-world use. 
       I implemented Firebase Authentication for secure email login, and Cloud Firestore as the real-time database to send and receive messages instantly. With StreamBuilder and a dedicated ChatServices class, the app dynamically updates conversations while ensuring clean state management.`,
     technologies: ["Flutter & Dart","Firbase",],
+  },
+  {
+    title: "E-book App",
+    video: vid15,
+    description:
+      `I built a modern eBook Store App using Flutter with Firebase (Firestore, Authentication, Storage) as the backend. The app offers a smooth and engaging experience for readers with a clean, user-friendly interface enhanced by custom widgets, Google Fonts, and professional animations.
+      It features dynamic book management, where the latest titles automatically appear in Popular and Newest categories, fully powered by Firebase integration. Users can securely sign up or log in, manage their profiles by updating their email, password, and profile picture, and even bookmark favorite books for quick access later.`,
+    technologies: ["Flutter & Dart","Firbase-FireStore, Authentication and Storage","Google-Fonts"],
   },
    {
     title: "Crud in Flutter & Dart",
