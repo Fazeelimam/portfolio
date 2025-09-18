@@ -2,6 +2,19 @@ import pic1 from "../assets/1.png"
 import pic2 from "../assets/2.png"
 import pic3 from "../assets/3.png"
 import vid1 from "../assets/projects/php1.mp4"
+import vid2 from "../assets/projects/laravel1.mp4"
+import vid3 from "../assets/projects/laravel2.mp4"
+import vid4 from "../assets/projects/asp1.mp4"
+import vid5 from "../assets/projects/python1.mp4"
+import vid6 from "../assets/projects/python2.mp4"
+import vid7 from "../assets/projects/flutter1.mp4"
+import vid8 from "../assets/projects/python3.mp4"
+import vid9 from "../assets/projects/flutter2.mp4"
+import vid10 from "../assets/projects/imageGen.mp4"
+import vid11 from "../assets/projects/perplexity.mp4"
+import vid12 from "../assets/projects/mern1.mp4"
+import vid13 from "../assets/projects/mern2.mp4"
+import vid14 from "../assets/projects/mern3.mp4"
 
 export const HERO_CONTENT = `Hi, I’m Hafiz Md. Fazeel — a passionate and motivated Software Engineering student and aspiring Full-Stack Developer. I'm currently pursuing my degree with a strong focus on building real-world web applications using modern technologies like React, Node.js, Express, MongoDB, and more Frontend and Backend Development.
 
@@ -36,12 +49,98 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-    {
-    title: "Crud with Images",
-    video: vid1,
+  {
+    title: "Full Authentication using MERN",
+    video: vid14,
     description:
-      "CRUD with Images is a web application I built using PHP and MySQL that allows users to Create, Read, Update, and Delete records along with image uploads. The system is designed to demonstrate how to manage both text data and media files within a database-driven application",
-    technologies: ["HTML", "CSS", "javascipt", "PHP", "MySQL"],
+      "I developed a secure and modern user authentication system using the MERN stack (MongoDB, Express.js, React.js, Node.js), enhanced with JWT-based authentication, Twilio SMS OTP, and Nodemailer email verification. The app ensures safe user onboarding with account verification, password reset flows, and token-based session management, making it suitable for real-world production use.",
+    technologies: ["React JS","Express JS","Node JS","MongoDB","Nodemon","JWT,bcrypt.js,cookie-parser,cors,dotenv","Two-Step Verification","SMS OTP via TWILIO","Email OTP via Nodemailer","Forgot-Reset Password"],
+  },
+   {
+    title: "Blog APP",
+    video: vid13,
+    description:
+      "I built a full-featured, AI-augmented blog application from scratch using the MERN stack (MongoDB, Express.js, React, Node.js), enhanced with Google Gemini for AI-assisted writing and ImageKit.IO for seamless media management. This project demonstrates my ability to combine full-stack development with AI integration and cloud-based image optimization.The app enables users to securely sign up, log in, and manage blogs with complete CRUD functionality, while leveraging AI to automatically generate titles, summaries, and content suggestions to spark creativity. For media, ImageKit ensures fast uploads, transformations, and CDN delivery, improving performance and user experience.",
+    technologies: ["React JS","Express JS","Node JS","MongoDB","Nodemon","JWT,bcrypt.js,cookie-parser,cors,dotenv","React-Toastify","ImageKit.AI","Google Gemini AI"],
+  },
+   {
+    title: "Event Planning",
+    video: vid12,
+    description:
+      "I developed a full-stack Event Planning Web Application designed to simplify how users discover, plan, and manage events. This project was built using the MERN stack and gave me hands-on experience with both frontend and backend development while implementing secure authentication and responsive design.The app provides a dynamic and user-friendly interface with route protection to ensure only authenticated users can access event-related content. It follows a modular design with reusable components like Navbar, Services, About, and Contact, while leveraging real-time feedback for an interactive user experience.",
+    technologies: ["React JS","Express JS","Node JS","MongoDB","Nodemon","JWT,bcrypt.js,cookie-parser,validator,cors,dotenv","React-Toastify"],
+  },
+   {
+    title: "Perplexity AI Clone",
+    video: vid11,
+    description:
+      "I've made a real-time Q&A app—just like Perplexity—using Flutter for the front end and FastAPI for the back end. Instead of relying on a built-in language model, this app fetches answers directly from credible sources using the Gemini AI API where users can ask questions and receive responses based on online sources. The aim of this making this project is to have a solid foundation of learning LLM and ML build a more complex AI powered application in Future.",
+    technologies: ["Flutter & Dart","Google GeminiAI API","Fast API","Python Integration","LLM","ML using Python"],
+  },
+   {
+    title: "Text to Image Generator",
+    video: vid10,
+    description:
+      `This project is a Text-to-Image Generator App built with Flutter and powered by the Stability AI API to transform natural language prompts into high-quality digital artwork. With a clean and modern UI, the app delivers a smooth user experience while showcasing the power of AI-driven creativity.
+The app uses Google Fonts and custom styling for a polished look, while a responsive layout with FutureBuilder ensures seamless image rendering. Users can input prompts in real time and instantly receive generated images, with built-in error handling and friendly prompts for reliability`,
+    technologies: ["Flutter & Dart","Stability AI","Google Fonts",],
+  },
+  {
+    title: "Chat Application",
+    video: vid9,
+    description:
+      `This is a fully functional real-time chat application built with Flutter and Firebase, designed to deliver smooth one-to-one messaging with a clean and responsive user interface. The app features light and dark theme support, custom chat components, and a scalable architecture that makes it practical for real-world use. 
+      I implemented Firebase Authentication for secure email login, and Cloud Firestore as the real-time database to send and receive messages instantly. With StreamBuilder and a dedicated ChatServices class, the app dynamically updates conversations while ensuring clean state management.`,
+    technologies: ["Flutter & Dart","Firbase",],
+  },
+   {
+    title: "Crud in Flutter & Dart",
+    video: vid7,
+    description:
+      "I made a Crud operation using Flutter & Dart , I used Firebase as Database",
+    technologies: ["Flutter & Dart","Firbase"],
+  },
+     {
+    title: "Weather App",
+    video: vid8,
+    description:
+      "The Weather App is a simple and visually elegant desktop application built using Python with PyQt5. It fetches real-time weather data using the OpenWeatherMap API and displays temperature (in °C and °F) from the world, weather condition (like sunny, cloudy, etc.), and an appropriate emoji icon for better UX.",
+    technologies: ["Python","PyQt5 for GUI","Request Library","OpenWeather Map"],
+  },
+   {
+    title: "Rock, Paper & Scissor game",
+    video: vid6,
+    description:
+      "I made a Rock, Paper & Scissor game in Python",
+    technologies: ["Python"],
+  },
+         {
+    title: "Quiz Game in Python",
+    video: vid5,
+    description:
+      "I made a quiz game in Python",
+    technologies: ["Python"],
+  },
+        {
+    title: "Crud Operation in ASP.net ",
+    video: vid4,
+    description:
+      " I made a Restful API using Swagger in ASP. Net . I create a CRUD Application in Restful API and for Database, I used SQL Server.",
+    technologies: ["ASP.Net","SQL","Restful API uisng Swagger" ],
+  },
+      {
+    title: "Coffee Website using Laravel",
+    video: vid3,
+    description:
+      "I made a Coffee website Using LARAVEL.",
+    technologies: ["Html","CSS","laravel" ],
+  },
+    {
+    title: "Crud Operation in Laravel",
+    video: vid2,
+    description:
+      "I made a CRUD Operation Using LARAVEL. I made a Employee description project using PHP's database . I just made Create, Read , Update and Delete functions.",
+    technologies: ["laravel" ,"MySQL"],
   },
    {
     title: "Crud with Images",
