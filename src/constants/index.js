@@ -17,11 +17,7 @@ import vid13 from "../assets/projects/mern2.mp4"
 import vid14 from "../assets/projects/mern3.mp4"
 import vid15 from "../assets/projects/flutter3.mp4"
 
-export const HERO_CONTENT = `Hi, I’m Hafiz Md. Fazeel — a passionate and motivated Software Engineering student and aspiring Full-Stack Developer. I'm currently pursuing my degree with a strong focus on building real-world web applications using modern technologies like React, Node.js, Express, MongoDB, and more Frontend and Backend Development.
-
-My learning journey revolves around blending design, logic, and clean code to solve problems and deliver user-friendly digital experiences. From front-end interfaces to back-end APIs, I enjoy working across the stack to bring projects to life.
-
-I'm always eager to learn, collaborate, and grow within the tech community — whether it’s through building side projects, contributing to open-source, or connecting with like-minded developers.`;
+export const HERO_CONTENT = `I am a third-year Software Engineering student and a passionate Full-Stack & Android Developer. Alongside my degree, I completed a Higher Diploma in Software Engineering from APTECH Pakistan, which strengthened my expertise in modern frameworks and tools. I specialize in building responsive web applications, scalable backend systems, and seamless mobile experiences with a focus on performance and user satisfaction.`;
 
 export const ABOUT_TEXT = `I’m Hafiz Md. Fazeel — a passionate Software Engineering student with a deep interest in building scalable and intuitive web applications. Currently pursuing my degree and expanding my expertise in Full-Stack Development, I enjoy working across both the front-end and back-end to bring complete solutions to life.
 
