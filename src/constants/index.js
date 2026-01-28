@@ -38,7 +38,7 @@ export const EXPERIENCES = [
   },
   {
     year: "November-2020 - December-2021",
-    role: "Junior Web Designer",
+    role: "Junior Web Developer",
     company: "Software House",
     description: `Designed and built an interactive analytics platform using HTML5, CSS3, and modern JavaScript (ES6) with React Library. Collaborated with developers to create responsive, user-friendly websites tailored to client needs.`,
     technologies: ["HTML5", "CSS", "JavaScript (ES6)", "React J"],
