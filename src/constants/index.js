@@ -17,7 +17,7 @@ import vid13 from "../assets/projects/mern2.mp4"
 import vid14 from "../assets/projects/mern3.mp4"
 import vid15 from "../assets/projects/flutter3.mp4"
 
-export const HERO_CONTENT = `I am a third-year Software Engineering student and a passionate Full-Stack & Android Developer. Alongside my degree, I completed a Higher Diploma in Software Engineering from APTECH Pakistan, which strengthened my expertise in modern frameworks and tools. I specialize in building responsive web applications, scalable backend systems, and seamless mobile experiences with a focus on performance and user satisfaction.`;
+export const HERO_CONTENT = `I am a final year Software Engineering student and a passionate Full-Stack Developer. Alongside my degree, I completed a Higher Diploma in Software Engineering from APTECH Pakistan, which strengthened my expertise in modern frameworks and tools. I specialize in building responsive web applications, scalable backend systems, and seamless mobile experiences with a focus on performance and user satisfaction.`;
 
 export const ABOUT_TEXT = `I’m Hafiz Md. Fazeel — a passionate Software Engineering student with a deep interest in building scalable and intuitive web applications. Currently pursuing my degree and expanding my expertise in Full-Stack Development, I enjoy working across both the front-end and back-end to bring complete solutions to life.
 
@@ -30,18 +30,18 @@ I’m also a believer in continuous learning and collaboration. I thrive in envi
 
 export const EXPERIENCES = [
   {
-    year: "2023 - 2024",
-    role: "WordPress Developer (Remote)",
+    year: "October-2023 - April-2024",
+    role: "Web Developer Intern(Remote)",
     company: "GAO Tek",
-    description: `Developed a clean, user-friendly e-commerce website using WordPress. Focused on smooth navigation, fast loading times, and SEO best practices to improve the overall shopping experience.`,
-    technologies: ["WordPress", "HTML", "CSS", "SEO", "E-Commerce"],
+    description: `Developed a clean, user-friendly e-commerce website using Frontend Technologies. Focused on smooth navigation, fast loading times, and SEO best practices to improve the overall shopping experience.`,
+    technologies: ["HTML", "CSS", "SEO", "React Js","E-Commerce"],
   },
   {
-    year: "2020",
+    year: "November-2020 - December-2021",
     role: "Junior Web Designer",
     company: "Software House",
-    description: `Designed and built an interactive analytics platform using HTML5, CSS3, and modern JavaScript (ES6). Collaborated with developers to create responsive, user-friendly websites tailored to client needs.`,
-    technologies: ["HTML5", "CSS", "JavaScript (ES6)"],
+    description: `Designed and built an interactive analytics platform using HTML5, CSS3, and modern JavaScript (ES6) with React Library. Collaborated with developers to create responsive, user-friendly websites tailored to client needs.`,
+    technologies: ["HTML5", "CSS", "JavaScript (ES6)", "React J"],
   }
 ];
 
